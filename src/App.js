@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import Hero from './components/hero/Hero';
-import Testemonials from './Testemonials';
+import { Testemonials, Description, WorkshopDescriptions } from './Testemonials';
 import './App.css';
 import './FancyButton.css';
 import { Table } from 'react-bootstrap';
@@ -49,7 +49,7 @@ function WshopTable() {
         </thead>
         <tbody>
           <tr>
-            <td className="table-time">2:00 pm</td>
+            <td className="table-time">2:00pm</td>
             <td className="table-time"></td>
             <td className="table-time"></td>
             <td className="table-time">Band Leading</td>
@@ -93,12 +93,23 @@ function App() {
       <div className="about-us-body">
           <h1 className="about-us-title" id="title-date">Sunday, April 25, 2021</h1>
           <p className="about-us-text">
-              Insert epic description of the event here
+              {Description}
           </p>
           <FancyButton />
           <h1 className="about-us-title">Workshops</h1>
           <div className="table-container">
             <WshopTable />
+          </div>
+          <div className="wshop-desc-container">
+            {Object.keys(WorkshopDescriptions).map(title => {
+              return (
+                <div className="wshop-desc-text-wrapper">
+                  <h2 className="wshop-desc-title">{title}</h2>
+                  <div className="wshop-desc-divider" />
+                  <p className="wshop-desc-text">{WorkshopDescriptions[title]}</p>
+                </div>
+              )
+            })}
           </div>
           <h1 className="about-us-title">Workshop Presenters</h1>
           <div className="all-testemonials-container">

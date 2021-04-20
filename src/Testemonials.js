@@ -1,4 +1,31 @@
-const Testemonials = [
+export const Description = <>
+    Welcome Worshippers and Musicians! Walla Walla University’s vespers 
+    leaders are stoked to offer a worship workshop where you can develop and 
+    hone your skills in different areas. Choose some of the workshops below 
+    to attend on Sunday, April 25. Our goal is to create a worship culture on 
+    campus that is vibrant, inclusive, and collaborative. We hope you will join 
+    us and tell your friends too!
+</>
+
+export const WorkshopDescriptions = {
+    "Band Leading": <>
+        Learn skills for picking band members, sets, running rehearsals, 
+        and collaborating with sound technicians.
+    </>,
+    "Vocals": <>
+        Learn skills like voice control, finding and building harmonies, 
+        effective use of the microphone, leading a congregation, and 
+        stage presence.
+    </>,
+    "Piano/Keys": <>
+        Insert piano/keys description
+    </>,
+    "Electric/Acoustic Guitar": <>
+        Insert guitar description
+    </>
+}
+
+export const Testemonials = [
     {
         img: './img/mugs/audrey.jpg',
         verticalOffset: "50%",
@@ -6,17 +33,17 @@ const Testemonials = [
         subtitle: 'Band Leading & Vocals',
         text: [ 
             <>
-                Enter Audrey's bio here
+                Audrey has been worship leading for almost 14 years in many capacities. Audrey’s 
+                dad is a full time musician and worship leader who taught her much of what she knows. 
+                She plays guitar, piano, bass, and she mostly loves to sing. She has learned lots over 
+                the years from her fellow leaders, mentors, and father.
+                Audrey is eager to share what she has learned with other leaders and to learn from them!
             </>,
             <>
-                "Being in a small group was one of the best ways to develop my 
-                relationship with God, as well as develop God centered friendships 
-                here at WWU."
-            </>,
-            <>
-                "Small groups for me, was the perfect getaway from the stress and 
-                craziness of college. It helped me to find the time for God when I 
-                needed it most!" 
+                Her philosophy boils down to this: Worship music is an opportunity for everyone involved 
+                to engage in guided prayer to the God of the Universe. A worship leaders’ job is to prepare 
+                the band enough so that their mistakes are not a distraction from the work the Holy Spirit 
+                is doing in the hearts of the congregation.
             </>
         ]
     },
@@ -64,5 +91,3 @@ const Testemonials = [
         ]
     }
 ]
-
-export default Testemonials

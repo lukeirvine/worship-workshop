@@ -34,6 +34,39 @@ p, h2 {
   overflow: scroll;
 }
 
+.wshop-desc-container {
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.wshop-desc-text-wrapper {
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+.wshop-desc-title {
+  font-family: "Carter One", sans-serif;
+  font-size: 20px;
+  color: rgb(10, 10, 112);
+}
+
+.wshop-desc-divider {
+  height: 2px;
+  background-color: rgb(219, 219, 219);
+  width: 200px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.wshop-desc-text {
+  line-height: 1.45;
+}
+
 .testemonials-container {
   margin-top: 20px;
   margin-bottom: 50px;
@@ -124,6 +157,14 @@ p, h2 {
       border-radius: 10px;
     }
 
+    .wshop-desc-title {
+      font-size: 23.5px;
+    }
+
+    .wshop-desc-text-wrapper {
+      width: 45%;
+    }
+
     .testemonials-container {
         display: flex;
         margin-left: 30px;
@@ -151,6 +192,13 @@ p, h2 {
     .about-us-text {
         max-width: 600px;
     }
+
+    .wshop-desc-text-wrapper {
+    }
+
+    .wshop-desc-title {
+      font-size: 25px;
+    }
 }
 
 
@@ -168,6 +216,35 @@ p, h2 {
 
     .signup-btn-container {
       width: 100%;
+    }
+
+    .wshop-desc-container {
+      margin-top: 20px;
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    
+    .wshop-desc-text-wrapper {
+      margin-bottom: 30px;
+    }
+    
+    .wshop-desc-title {
+      font-family: "Carter One", sans-serif;
+      font-size: 25px;
+      color: rgb(10, 10, 112);
+    }
+    
+    .wshop-desc-divider {
+      height: 2px;
+      background-color: rgb(219, 219, 219);
+      width: 300px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    
+    .wshop-desc-text {
     }
 
 }
