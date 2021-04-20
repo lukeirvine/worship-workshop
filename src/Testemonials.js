@@ -58,24 +58,24 @@ export const Testemonials = [
         subtitle: 'Piano/Keys',
         text: [
             <>
-                Music has been a large part of Luke's entire life. He started playing
-                piano at the age of 6 and took classical lessons through his sophomore 
+                Music has been a large part of Luke's life. He started playing
+                piano at age 6 and took classical lessons through his sophomore 
                 year in college, participating in various piano competitions and concerts.
                 In addition to his classical training Luke took 4 years of jazz theory that
-                greatly informs his style and playing and allowed him to play numerous
+                greatly informed his style and playing and allowed him to play numerous
                 gigs at restaurants and weddings throughout highschool and college. 
             </>,
             <>
                 While he was developing his style and technique on the keyboard, Luke also
                 frequently led worship from the front with his guitar for school worships
                 and evening worships at summer camp. Here at WWU Luke was a Vespers band 
-                leader his Freshman and Sophomore years and became the Assistant Chaplain for
-                Music his Junior and Senior years.
+                leader his freshman and sophomore years and became the Assistant Chaplain for
+                Music his junior and senior years.
             </>,
             <>
                 In the last couple years Luke has spent his free time teaching several young 
                 piano students to expand their playing beyond the page and improvise with 
-                various tools and "cheats" that he's developed over his years of playing. 
+                various tools and "cheats". 
                 Several of his students were able to use these tips and tricks to play in 
                 a worship band after only a couple months of instruction. Luke is very excited
                 to share some of these techniques with fellow pianists in this workshop.
@@ -90,9 +90,9 @@ export const Testemonials = [
         text: [
             <>
                 In addition to being a Vespers band leader, Jake is also the music coordinator
-                for Circle Church. He's been playing guitar since before he can walk and loves
+                for Circle Church. He's been playing guitar since before he could walk and loves
                 dabbling in other areas of worship music like bass, keys, and drums. He's been
-                passionatley involved in worship on our campus, playing more times than he can count
+                passionatley involved in worship on campus, playing more times than he can count
                 for various events like Circle Church, Heubach Worship, Fireside, Battle of the Bands,
                 Vespers, and more. 
             </>
