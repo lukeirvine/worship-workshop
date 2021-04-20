@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/worship-workshop/static/css/main.fcd9889c.chunk.css",
-    "main.js": "/worship-workshop/static/js/main.65e3046f.chunk.js",
-    "main.js.map": "/worship-workshop/static/js/main.65e3046f.chunk.js.map",
-    "runtime-main.js": "/worship-workshop/static/js/runtime-main.0b2c307f.js",
-    "runtime-main.js.map": "/worship-workshop/static/js/runtime-main.0b2c307f.js.map",
-    "static/js/2.d5502e5e.chunk.js": "/worship-workshop/static/js/2.d5502e5e.chunk.js",
-    "static/js/2.d5502e5e.chunk.js.map": "/worship-workshop/static/js/2.d5502e5e.chunk.js.map",
-    "static/js/3.b0c7c2f9.chunk.js": "/worship-workshop/static/js/3.b0c7c2f9.chunk.js",
-    "static/js/3.b0c7c2f9.chunk.js.map": "/worship-workshop/static/js/3.b0c7c2f9.chunk.js.map",
-    "index.html": "/worship-workshop/index.html",
-    "static/css/main.fcd9889c.chunk.css.map": "/worship-workshop/static/css/main.fcd9889c.chunk.css.map",
-    "static/js/2.d5502e5e.chunk.js.LICENSE.txt": "/worship-workshop/static/js/2.d5502e5e.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/worship-workshop/static/media/logo.6ce24c58.svg"
+    "main.css": "/static/css/main.fcd9889c.chunk.css",
+    "main.js": "/static/js/main.65e3046f.chunk.js",
+    "main.js.map": "/static/js/main.65e3046f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8aa7b1e9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8aa7b1e9.js.map",
+    "static/js/2.d5502e5e.chunk.js": "/static/js/2.d5502e5e.chunk.js",
+    "static/js/2.d5502e5e.chunk.js.map": "/static/js/2.d5502e5e.chunk.js.map",
+    "static/js/3.b0c7c2f9.chunk.js": "/static/js/3.b0c7c2f9.chunk.js",
+    "static/js/3.b0c7c2f9.chunk.js.map": "/static/js/3.b0c7c2f9.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.fcd9889c.chunk.css.map": "/static/css/main.fcd9889c.chunk.css.map",
+    "static/js/2.d5502e5e.chunk.js.LICENSE.txt": "/static/js/2.d5502e5e.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0b2c307f.js",
+    "static/js/runtime-main.8aa7b1e9.js",
     "static/js/2.d5502e5e.chunk.js",
     "static/css/main.fcd9889c.chunk.css",
     "static/js/main.65e3046f.chunk.js"
