@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import Hero from './components/hero/Hero';
 import Testemonials from './Testemonials';
 import './App.css';
+import './FancyButton.css';
+import { Table } from 'react-bootstrap';
 
 function FancyButton() {
 
@@ -16,14 +18,14 @@ function FancyButton() {
           <div className="center-content-inner">
             <div className="content-section content-section-margin">
               <div className="content-section-grid clearfix">
-                <a className="button nav-link">
+                <a className="my-button nav-link">
                   <div className="bottom"></div>
                   <div className="top">
-                    <div className="label">Sign Up</div>
-                    <div className="button-border button-border-left"></div>
-                    <div className="button-border button-border-top"></div>
-                    <div className="button-border button-border-right"></div>
-                    <div className="button-border button-border-bottom"></div>
+                    <div className="label">Sign Up Now</div>
+                    <div className="my-button-border my-button-border-left"></div>
+                    <div className="my-button-border my-button-border-top"></div>
+                    <div className="my-button-border my-button-border-right"></div>
+                    <div className="my-button-border my-button-border-bottom"></div>
                   </div>
                 </a>
               </div>
@@ -35,12 +37,68 @@ function FancyButton() {
   )
 }
 
+function WshopTable() {
+  return (
+    <div>
+      <Table bordered>
+        <thead>
+          <th>Time</th>
+          <th>Fellowship Hall</th>
+          <th>Youth Room</th>
+          <th>Heubach Chapel</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td className="table-time">2:00 pm</td>
+            <td className="table-time"></td>
+            <td className="table-time"></td>
+            <td className="table-time">Band Leading</td>
+          </tr>
+          <tr>
+            <td className="shop-name">3:00pm</td>
+            <td className="shop-name">Piano/Keys</td>
+            <td className="shop-name">Electric Guitar</td>
+            <td className="shop-name">Vocals</td>
+          </tr>
+          <tr>
+            <td className="shop-name">4:00pm</td>
+            <td className="shop-name">Piano/Keys</td>
+            <td className="shop-name">Acoustic Guitar</td>
+            <td className="shop-name">Vocals</td>
+          </tr>
+          <tr>
+            <td className="shop-name">5:00pm</td>
+            <td className="shop-name"></td>
+            <td className="shop-name"></td>
+            <td className="shop-name"></td>
+          </tr>
+        </tbody>
+      </Table>
+    </div>
+  )
+}
+
 function App() {
 
   return (
     <div className="app">
+      <Hero 
+        img="img/hero/vespers1.jpg"
+        imgVerticalOffset="50% 50%"
+        imgOpacity="0.7"
+        title="Worship Workshop"
+        subtitle="WWU Campus Ministries"
+      />
       <FancyButton />
       <div className="about-us-body">
+          <h1 className="about-us-title">Workshops</h1>
+          <div className="table-container">
+            <WshopTable />
+          </div>
+          <h1 className="about-us-title">Workshop Presenters</h1>
+          <p className="about-us-text">
+              
+          </p>
           <div className="all-testemonials-container">
               {Testemonials.map(item => {
                   return (
