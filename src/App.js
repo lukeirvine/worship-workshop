@@ -89,16 +89,18 @@ function App() {
         title="Worship Workshop"
         subtitle="WWU Campus Ministries"
       />
-      <FancyButton />
+      
       <div className="about-us-body">
+          <h1 className="about-us-title">Welcome to the Worship Workshop</h1>
+          <p className="about-us-text">
+              Insert epic description of the event here
+          </p>
+          <FancyButton />
           <h1 className="about-us-title">Workshops</h1>
           <div className="table-container">
             <WshopTable />
           </div>
           <h1 className="about-us-title">Workshop Presenters</h1>
-          <p className="about-us-text">
-              
-          </p>
           <div className="all-testemonials-container">
               {Testemonials.map(item => {
                   return (

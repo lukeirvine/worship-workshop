@@ -6,6 +6,9 @@ const Testemonials = [
         subtitle: 'Band Leading & Vocals',
         text: [ 
             <>
+                Enter Audrey's bio here
+            </>,
+            <>
                 "Being in a small group was one of the best ways to develop my 
                 relationship with God, as well as develop God centered friendships 
                 here at WWU."
@@ -24,6 +27,9 @@ const Testemonials = [
         subtitle: 'Piano/Keys',
         text: [
             <>
+                Enter Luke's bio here
+            </>,
+            <>
                 "There is something beautiful that happens in a small group community. I had the 
                 opportunity to be a small group leader for a few quarters my junior year. 
                 The people in the group didn't know each other at first, but as the weeks went 
@@ -39,6 +45,9 @@ const Testemonials = [
         title: 'Jake Langford',
         subtitle: 'Electric & Acoustic Guitar',
         text: [
+            <>
+                Enter Jake's bio here
+            </>,
             <>
                 "When I was in a small group last year I loved the surprise of having the outcomes 
                 differ from my expectations. I thought that small groups would "blow my mind," with 
