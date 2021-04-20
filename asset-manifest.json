@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/worship-workshop/static/css/main.d41ed33e.chunk.css",
-    "main.js": "/worship-workshop/static/js/main.95a0a47f.chunk.js",
-    "main.js.map": "/worship-workshop/static/js/main.95a0a47f.chunk.js.map",
+    "main.css": "/worship-workshop/static/css/main.8ee6222e.chunk.css",
+    "main.js": "/worship-workshop/static/js/main.743e7617.chunk.js",
+    "main.js.map": "/worship-workshop/static/js/main.743e7617.chunk.js.map",
     "runtime-main.js": "/worship-workshop/static/js/runtime-main.97fb90cd.js",
     "runtime-main.js.map": "/worship-workshop/static/js/runtime-main.97fb90cd.js.map",
-    "static/js/2.53a8c63a.chunk.js": "/worship-workshop/static/js/2.53a8c63a.chunk.js",
-    "static/js/2.53a8c63a.chunk.js.map": "/worship-workshop/static/js/2.53a8c63a.chunk.js.map",
+    "static/js/2.2ba7396c.chunk.js": "/worship-workshop/static/js/2.2ba7396c.chunk.js",
+    "static/js/2.2ba7396c.chunk.js.map": "/worship-workshop/static/js/2.2ba7396c.chunk.js.map",
     "static/js/3.edddcc75.chunk.js": "/worship-workshop/static/js/3.edddcc75.chunk.js",
     "static/js/3.edddcc75.chunk.js.map": "/worship-workshop/static/js/3.edddcc75.chunk.js.map",
     "index.html": "/worship-workshop/index.html",
-    "static/css/main.d41ed33e.chunk.css.map": "/worship-workshop/static/css/main.d41ed33e.chunk.css.map",
-    "static/js/2.53a8c63a.chunk.js.LICENSE.txt": "/worship-workshop/static/js/2.53a8c63a.chunk.js.LICENSE.txt",
+    "static/css/main.8ee6222e.chunk.css.map": "/worship-workshop/static/css/main.8ee6222e.chunk.css.map",
+    "static/js/2.2ba7396c.chunk.js.LICENSE.txt": "/worship-workshop/static/js/2.2ba7396c.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/worship-workshop/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.97fb90cd.js",
-    "static/js/2.53a8c63a.chunk.js",
-    "static/css/main.d41ed33e.chunk.css",
-    "static/js/main.95a0a47f.chunk.js"
+    "static/js/2.2ba7396c.chunk.js",
+    "static/css/main.8ee6222e.chunk.css",
+    "static/js/main.743e7617.chunk.js"
   ]
 }
