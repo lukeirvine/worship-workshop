@@ -165,6 +165,11 @@ p, h2 {
         margin-right: 250px;
         margin-bottom: 50px;
     }
+
+    .signup-btn-container {
+      width: 100%;
+    }
+
 }
 
 @media only screen and (min-width: 1700px) {
