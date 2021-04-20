@@ -18,10 +18,14 @@ export const WorkshopDescriptions = {
         stage presence.
     </>,
     "Piano/Keys": <>
-        Insert piano/keys description
+        Learn simple chord voicing, chord extensions, dynamic playing,
+        rhythmic and percussive strategies, simple music theory, and other
+        tips and tricks for sounding great without a lot of technical
+        prowess or experience.
     </>,
     "Electric/Acoustic Guitar": <>
-        Insert guitar description
+        Learn various guitar elements like swells, rhythms, scales, and chord
+        shapes
     </>
 }
 
@@ -54,15 +58,27 @@ export const Testemonials = [
         subtitle: 'Piano/Keys',
         text: [
             <>
-                Enter Luke's bio here
+                Music has been a large part of Luke's entire life. He started playing
+                piano at the age of 6 and took classical lessons through his sophomore 
+                year in college, participating in various piano competitions and concerts.
+                In addition to his classical training Luke took 4 years of jazz theory that
+                greatly informs his style and playing and allowed him to play numerous
+                gigs at restaurants and weddings throughout highschool and college. 
             </>,
             <>
-                "There is something beautiful that happens in a small group community. I had the 
-                opportunity to be a small group leader for a few quarters my junior year. 
-                The people in the group didn't know each other at first, but as the weeks went 
-                on we became close friends. It was so wonderful gathering for an hour, once a week, 
-                and reflecting how God was moving in our lives. I grew so much that year and learned 
-                so much from the people in that group." 
+                While he was developing his style and technique on the keyboard, Luke also
+                frequently led worship from the front with his guitar for school worships
+                and evening worships at summer camp. Here at WWU Luke was a Vespers band 
+                leader his Freshman and Sophomore years and became the Assistant Chaplain for
+                Music his Junior and Senior years.
+            </>,
+            <>
+                In the last couple years Luke has spent his free time teaching several young 
+                piano students to expand their playing beyond the page and improvise with 
+                various tools and "cheats" that he's developed over his years of playing. 
+                Several of his students were able to use these tips and tricks to play in 
+                a worship band after only a couple months of instruction. Luke is very excited
+                to share some of these techniques with fellow pianists in this workshop.
             </>
         ]
     },
@@ -73,20 +89,12 @@ export const Testemonials = [
         subtitle: 'Electric & Acoustic Guitar',
         text: [
             <>
-                Enter Jake's bio here
-            </>,
-            <>
-                "When I was in a small group last year I loved the surprise of having the outcomes 
-                differ from my expectations. I thought that small groups would "blow my mind," with 
-                concepts that were unique and transformative every time that we would meet. Rather, 
-                I found that my soul was not craving epiphanies, but rather fellowship. Having a 
-                consistent community of people that are focused on Christ and on love was a powerful 
-                thing."
-            </>,
-            <>
-                "Sometimes after the worship part of small groups ended, that's when I felt the 
-                strongest presence of the Holy Spirit. The post-worship conversations, fellowships, 
-                and just hanging out was my favorite aspect of small groups."
+                In addition to being a Vespers band leader, Jake is also the music coordinator
+                for Circle Church. He's been playing guitar since before he can walk and loves
+                dabbling in other areas of worship music like bass, keys, and drums. He's been
+                passionatley involved in worship on our campus, playing more times than he can count
+                for various events like Circle Church, Heubach Worship, Fireside, Battle of the Bands,
+                Vespers, and more. 
             </>
         ]
     }

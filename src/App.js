@@ -91,6 +91,7 @@ function App() {
       />
       
       <div className="about-us-body">
+          <h1 className="about-us-title" id="title-location">University Church</h1>
           <h1 className="about-us-title" id="title-date">Sunday, April 25, 2021</h1>
           <p className="about-us-text">
               {Description}

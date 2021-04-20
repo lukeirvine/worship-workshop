@@ -3,18 +3,27 @@ p, h2 {
   padding: 0;
 }
 
+p {
+  line-height: 1.5;
+}
+
 .about-us-body {
   margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .about-us-title {
   font-family: 'Carter One', cursive;
   margin-left: 10px;
-  margin-top: 50px;
+  margin-top: 10px;
+}
+
+#title-date, #title-location {
+  font-size: 27px;
 }
 
 #title-date {
-  font-size: 27px;
+  color: rgb(10, 10, 112);
 }
 
 .about-us-subtitle {
@@ -27,7 +36,8 @@ p, h2 {
 
 .about-us-text {
   padding: 0px;
-  margin: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .table-container {
@@ -61,10 +71,6 @@ p, h2 {
   width: 200px;
   margin-top: 5px;
   margin-bottom: 5px;
-}
-
-.wshop-desc-text {
-  line-height: 1.45;
 }
 
 .testemonials-container {
@@ -109,7 +115,6 @@ p, h2 {
 .testemonial-text {
   padding-left: 20px;
   padding-right: 20px;
-  line-height: 1.45;
   margin-bottom: 20px;
 }
 
@@ -142,11 +147,9 @@ p, h2 {
     }
 
     .about-us-text {
-      margin-left: 30px;
-    }
-
-    .about-us-text {
-        max-width: 500px;
+      padding-left: 30px;
+      padding-right: 30px;
+      width: 100%;
     }
     
     .table-container {
@@ -189,10 +192,6 @@ p, h2 {
 
 
 @media only screen and (min-width: 992px) {
-    .about-us-text {
-        max-width: 600px;
-    }
-
     .wshop-desc-text-wrapper {
     }
 
