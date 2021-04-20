@@ -4,6 +4,7 @@ import { Testemonials, Description, WorkshopDescriptions } from './Testemonials'
 import './App.css';
 import './FancyButton.css';
 import { Table } from 'react-bootstrap';
+import Footer from './components/footer/Footer';
 
 function FancyButton() {
 
@@ -65,12 +66,6 @@ function WshopTable() {
             <td className="shop-name">Piano/Keys</td>
             <td className="shop-name">Acoustic Guitar</td>
             <td className="shop-name">Vocals</td>
-          </tr>
-          <tr>
-            <td className="shop-name">5:00pm</td>
-            <td className="shop-name"></td>
-            <td className="shop-name"></td>
-            <td className="shop-name"></td>
           </tr>
         </tbody>
       </Table>
@@ -140,7 +135,7 @@ function App() {
               })}
           </div>
       </div>
-
+      <Footer />
     </div>
   );
 }
