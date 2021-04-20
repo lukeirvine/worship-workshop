@@ -3,8 +3,18 @@ import Hero from './components/hero/Hero';
 import './App.css';
 
 function App() {
+
+  const handleClick = () => {
+    window.location.href = "http://www.w3schools.com";
+  }
+
   return (
     <div className="app">
+      <div className="btn-container">
+        <button onClick={handleClick} className="signup-btn" href="google.com">
+          Sign Up
+        </button>
+      </div>
       <div className="bio-container">
         <div className="bio-img-wrapper">
           <img className="bio-img" src="img/mugs/audrey.jpg"/>
