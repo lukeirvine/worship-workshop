@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/worship-workshop/static/css/main.8ee6222e.chunk.css",
-    "main.js": "/worship-workshop/static/js/main.743e7617.chunk.js",
-    "main.js.map": "/worship-workshop/static/js/main.743e7617.chunk.js.map",
-    "runtime-main.js": "/worship-workshop/static/js/runtime-main.97fb90cd.js",
-    "runtime-main.js.map": "/worship-workshop/static/js/runtime-main.97fb90cd.js.map",
-    "static/js/2.2ba7396c.chunk.js": "/worship-workshop/static/js/2.2ba7396c.chunk.js",
-    "static/js/2.2ba7396c.chunk.js.map": "/worship-workshop/static/js/2.2ba7396c.chunk.js.map",
-    "static/js/3.edddcc75.chunk.js": "/worship-workshop/static/js/3.edddcc75.chunk.js",
-    "static/js/3.edddcc75.chunk.js.map": "/worship-workshop/static/js/3.edddcc75.chunk.js.map",
+    "main.css": "/worship-workshop/static/css/main.30f25bd8.chunk.css",
+    "main.js": "/worship-workshop/static/js/main.65e3046f.chunk.js",
+    "main.js.map": "/worship-workshop/static/js/main.65e3046f.chunk.js.map",
+    "runtime-main.js": "/worship-workshop/static/js/runtime-main.0b2c307f.js",
+    "runtime-main.js.map": "/worship-workshop/static/js/runtime-main.0b2c307f.js.map",
+    "static/js/2.d5502e5e.chunk.js": "/worship-workshop/static/js/2.d5502e5e.chunk.js",
+    "static/js/2.d5502e5e.chunk.js.map": "/worship-workshop/static/js/2.d5502e5e.chunk.js.map",
+    "static/js/3.b0c7c2f9.chunk.js": "/worship-workshop/static/js/3.b0c7c2f9.chunk.js",
+    "static/js/3.b0c7c2f9.chunk.js.map": "/worship-workshop/static/js/3.b0c7c2f9.chunk.js.map",
     "index.html": "/worship-workshop/index.html",
-    "static/css/main.8ee6222e.chunk.css.map": "/worship-workshop/static/css/main.8ee6222e.chunk.css.map",
-    "static/js/2.2ba7396c.chunk.js.LICENSE.txt": "/worship-workshop/static/js/2.2ba7396c.chunk.js.LICENSE.txt",
+    "static/css/main.30f25bd8.chunk.css.map": "/worship-workshop/static/css/main.30f25bd8.chunk.css.map",
+    "static/js/2.d5502e5e.chunk.js.LICENSE.txt": "/worship-workshop/static/js/2.d5502e5e.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/worship-workshop/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.97fb90cd.js",
-    "static/js/2.2ba7396c.chunk.js",
-    "static/css/main.8ee6222e.chunk.css",
-    "static/js/main.743e7617.chunk.js"
+    "static/js/runtime-main.0b2c307f.js",
+    "static/js/2.d5502e5e.chunk.js",
+    "static/css/main.30f25bd8.chunk.css",
+    "static/js/main.65e3046f.chunk.js"
   ]
 }
