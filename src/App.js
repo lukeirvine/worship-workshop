@@ -1,56 +1,74 @@
 import logo from './logo.svg';
 import Hero from './components/hero/Hero';
+import Testemonials from './Testemonials';
 import './App.css';
 
-function App() {
+function FancyButton() {
 
   const handleClick = () => {
-    window.location.href = "http://www.w3schools.com";
+    window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSeFNPIVK3gNQe9iLLKmSohIIX3Ne48_yQcQwUZaB987yyUBxA/viewform?usp=sf_link";
   }
 
   return (
+    <div className="signup-btn-container">
+      <section id="intro" onClick={handleClick}>
+        <div id="intro-content" className="center-content">
+          <div className="center-content-inner">
+            <div className="content-section content-section-margin">
+              <div className="content-section-grid clearfix">
+                <a className="button nav-link">
+                  <div className="bottom"></div>
+                  <div className="top">
+                    <div className="label">Sign Up</div>
+                    <div className="button-border button-border-left"></div>
+                    <div className="button-border button-border-top"></div>
+                    <div className="button-border button-border-right"></div>
+                    <div className="button-border button-border-bottom"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  )
+}
+
+function App() {
+
+  return (
     <div className="app">
-      <div className="btn-container">
-        <button onClick={handleClick} className="signup-btn" href="google.com">
-          Sign Up
-        </button>
+      <FancyButton />
+      <div className="about-us-body">
+          <div className="all-testemonials-container">
+              {Testemonials.map(item => {
+                  return (
+                      <div className="testemonials-container">
+                          <div className="testemonial-img-wrapper">
+                              <img
+                                  className="testemonial-img"
+                                  src={item.img}
+                                  style={{objectPosition: "50%" + item.verticalOffset}}
+                              />
+                          </div>
+                          <div className="testemonial-text-wrapper">
+                              <h2 className="testemonial-title">{item.title}</h2>
+                              <p className="testemonial-subtitle">{item.subtitle}</p>
+                              {item.text.map(paragraph => {
+                                  return (
+                                      <p className="testemonial-text">
+                                          {paragraph}
+                                      </p>
+                                  )
+                              })}
+                          </div>
+                      </div>
+                  )
+              })}
+          </div>
       </div>
-      <div className="bio-container">
-        <div className="bio-img-wrapper">
-          <img className="bio-img" src="img/mugs/audrey.jpg"/>
-        </div>
-        <div className="bio-text-container">
-          <h2 className="bio-header">Audrey Turner</h2>
-          <p className="bio-subtitle">Workshops: Band Leading & Vocals</p>
-          <p className="bio-text">
-            Luke Irvine is a Senior Computer Science major.
-          </p>
-        </div>
-      </div>
-      <div className="bio-container">
-        <div className="bio-img-wrapper">
-          <img className="bio-img" src="img/mugs/luke.jpg"/>
-        </div>
-        <div className="bio-text-container">
-          <h2 className="bio-header">Luke Irvine</h2>
-          <p className="bio-subtitle">Workshops: Piano/Keys</p>
-          <p className="bio-text">
-            Luke Irvine is a Senior Computer Science major.
-          </p>
-        </div>
-      </div>
-      <div className="bio-container">
-        <div className="bio-img-wrapper">
-          <img className="bio-img" src="img/mugs/jake.jpg"/>
-        </div>
-        <div className="bio-text-container">
-          <h2 className="bio-header">Jake Langford</h2>
-          <p className="bio-subtitle">Workshops: Electric/Acoustic Guitar</p>
-          <p className="bio-text">
-            Luke Irvine is a Senior Computer Science major.
-          </p>
-        </div>
-      </div>
+
     </div>
   );
 }
